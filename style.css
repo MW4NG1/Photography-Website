@@ -32,7 +32,7 @@ header h1 {
   height: 90px;
   border-radius: 50%;
   margin-right: 10px;
-  display: ruby;
+  display: inline-block;
   align-items: center;
 }
 .logo:hover {
@@ -110,7 +110,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-.about-photoprapher {
+.about-photographer {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -118,21 +118,22 @@ footer a:hover {
   border-radius: 6px;
   text-align: center;
 }
-.about-photoprapher img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: center;
+.photographer-photo {
+width: 300px;
+height: auto;display: block;margin: 20px auto;border-radius: 10px;transition: transform 0.3s ease ;filter: 0.3s ease  ;
 }
-.about-photoprapher h2 {
+.photographer-photo:hover {
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+.about-photographer h2 {
   font-size: 15px;
-  color: whitesmoke;
+  color: rgb(15, 15, 15);
   line-height: 1.5;
 }
-.about-photoprapher p {
+.about-photographer p {
   font-size: 14px;
-  color: whitesmoke;
+  color: rgb(240, 217, 217);
   line-height: 1.5;
 }
 form {
@@ -149,7 +150,7 @@ form label {
   font-weight: 600;
 }
 form input,
-form textarea form button {
+form textarea, form button {
   padding: 8px;
   width: 100%;
   font-size: 18px;
@@ -171,3 +172,4 @@ form button:hover {
     background-color 0.3s ease,
     color 0.3s ease;
 }
+
