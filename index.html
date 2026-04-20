@@ -3,63 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BLACKS</title>
+    <title>PHOTOGRAPHY WEBSITE</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- LOGO -->
     <header>
+      <a href="/"> <img src="/aesthetic.jpg" alt="Logo" class="logo"/> </a>
       <h1>History's Blacks</h1>
-      <p>All About Black History.</p>
+      <p><strong><em>All About Black History.</strong></em></p>
     </header>
-    <!-- Navigation -->
     <nav>
-      <a href="intro">Introduction</a>
-      <a href="About">About</a>
-      <a href="gallery">Gallery</a>
-      <a href="content">Content</a>
+      <a href="Home">Home</a>
+      <a href="Gallery">Gallery</a>
+      <a href="about">About</a>
+      <a href="contact">Contact</a>
     </nav>
-    <body>
-      <!-- Introduction -->
-      <section>
-        <h2>Introduction</h2>
+    <!-- home -->
+      <section id="home">
+        <h2>Welcome to my photography website</h2>
         <p>
           Welcome to my Gallery. Photography is a passion to me and i hope that
           the following photos inspire in a way.
         </p>
       </section>
-      <!-- About Section -->
-      <section>
-        <h2>About</h2>
-        <p>My name is Mwangi</p>
+      <!-- Gallery -->
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="photo-grid">
+          <figure>
+            <img src="/50 cent.jpg" alt="Photo 1">
+            <figcaption>50 Cent</figcaption>
+          </figure>
+          <figure>
+            <img src="./Kanye.jpg" alt="Photo 2">
+            <figcaption>Kanye West</figcaption>
+          </figure>
+          <figure>
+            <img src="./Asap.jpg" alt="Photo 3">
+            <figcaption>A$AP ROCKY</figcaption>
+          </figure>
+          <!-- More Photos -->
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About the Website</h2>
         <p>
-          This website entails photos of various black people that have
-          insipired poeple in the society.I beleive they are of importance.
+          This website is dedicated to showcasing the beauty and diversity of
+          black culture through photography. It features a collection of
+          photographs that capture the essence of black history, culture, and
+          identity. The website aims to celebrate the contributions of black
+          individuals and communities while promoting a deeper understanding of
+          their experiences and stories.
         </p>
       </section>
-      <!-- Content Section -->
-      <section>
-        <h2>Content</h2>
-        <h3>People</h3>
-        <h4>1. 50 CENT</h4>
-        <img src="50 cent.jpg" />alt="">
-        <p>
-          50 Cent is an American rapper, actor, and businessman. He rose to fame
-          with his debut album "Get Rich or Die Tryin'" in 2003.
-        </p>
-        <h4>2. THE WEEKND</h4>
-        <img src="Theweeknd.jpg" />alt="">
-        <p>
-          The Weeknd is a Canadian singer, songwriter, and actor. He is known for his distinctive voice and dark, atmospheric sound.
-        </p>
-        <h5>3. KANYE WEST</h5>
-        <img src="Kanye.jpg" />alt="">
-        <p>
-          Kanye West is an American rapper, singer, and songwriter. He is known for his innovative production style and controversial public persona.
-        </p> 
-        <h6>4. ASAP ROCKY</h6> 
-        <img src="Asap.jpg" />alt="">
-        <p>Asap Rocky is an American rapper and singer. He is known for his unique style and energetic performances.</p>  
+      <section id="Photographer">
+        <div class="about-photographer">
+          <artcle>
+            <img src="./Theweeknd.jpg" alt="Photographer" class="photographer-photo"/>
+            <h2>About Photographer</h2>
+            <p>
+              I am a passionate individual who has dedicated their life to capturing the beauty and diversity of
+              black culture through their lens. With a keen eye for detail and a
+              deep appreciation for the stories and experiences of black
+              individuals, the photographer strives to create powerful and
+              evocative images that celebrate the richness of black history and
+              identity.
+            </p>
+          </artcle>
+        </div>
       </section>
-    </body>
+
+
   </body>
 </html>
